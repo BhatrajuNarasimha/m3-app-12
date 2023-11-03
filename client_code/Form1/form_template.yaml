@@ -12,3 +12,14 @@ components:
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- name: link_1
+  properties: {}
+  type: Link
+  layout_properties: {slot: title}
+  components:
+  - name: button_1
+    properties: {text: 'home
+
+        '}
+    type: Button
+    layout_properties: {grid_position: 'ETNSKA,HALOBE'}
